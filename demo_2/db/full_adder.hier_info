@@ -1,0 +1,11 @@
+|full_adder
+sum <= u2.DB_MAX_OUTPUT_PORT_TYPE
+cout <= u5.DB_MAX_OUTPUT_PORT_TYPE
+A => u1.IN0
+A => u4.IN0
+B => u1.IN1
+B => u4.IN1
+cin => u2.IN1
+cin => u3.IN1
+
+

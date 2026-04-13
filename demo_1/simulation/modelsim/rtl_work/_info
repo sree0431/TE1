@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/Project_FPGA/demo_1/simulation/modelsim
+vxor_gate
+Z1 !s110 1776091736
+!i10b 1
+!s100 zhfn5AGXbXV>>XWTR]7]U1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IA78T:9?dFPZ0SRTRl=K:H0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1776091175
+8C:/intelFPGA_lite/Project_FPGA/demo_1/xor_gate.v
+FC:/intelFPGA_lite/Project_FPGA/demo_1/xor_gate.v
+!i122 0
+L0 17 13
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1776091736.000000
+!s107 C:/intelFPGA_lite/Project_FPGA/demo_1/xor_gate.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Project_FPGA/demo_1|C:/intelFPGA_lite/Project_FPGA/demo_1/xor_gate.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/Project_FPGA/demo_1
+Z8 tCvgOpt 0
+vxor_tb
+R1
+!i10b 1
+!s100 J9S9?kzmMn3_GD9df9cIG3
+R2
+Ig>URjE57KNg14D1D7I;YJ0
+R3
+R0
+w1776090844
+8C:/intelFPGA_lite/Project_FPGA/demo_1/xor_tb.v
+FC:/intelFPGA_lite/Project_FPGA/demo_1/xor_tb.v
+!i122 1
+L0 3 21
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA_lite/Project_FPGA/demo_1/xor_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Project_FPGA/demo_1|C:/intelFPGA_lite/Project_FPGA/demo_1/xor_tb.v|
+!i113 1
+R6
+R7
+R8

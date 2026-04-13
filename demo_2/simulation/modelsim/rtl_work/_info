@@ -1,0 +1,58 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA_lite/Project_FPGA/demo_2/simulation/modelsim
+vfull_adder
+!s110 1776059001
+!i10b 1
+!s100 o?oo?T:m1hAnVGSKZ2DXc2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4iAOla4KBFU@]^EzF?XAo3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1776058701
+8C:/intelFPGA_lite/Project_FPGA/demo_2/full_adder.v
+FC:/intelFPGA_lite/Project_FPGA/demo_2/full_adder.v
+!i122 0
+L0 1 14
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1776059001.000000
+!s107 C:/intelFPGA_lite/Project_FPGA/demo_2/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Project_FPGA/demo_2|C:/intelFPGA_lite/Project_FPGA/demo_2/full_adder.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/Project_FPGA/demo_2
+Z4 tCvgOpt 0
+vtb_full_adder
+!s110 1776059024
+!i10b 1
+!s100 _f4PhXkDJo0blUWfU6_>L3
+R1
+IY6b`j=>0<77Yc;C>gmhF?1
+R2
+R0
+w1776052635
+8C:/intelFPGA_lite/Project_FPGA/demo_2/tb_full_adder.v
+FC:/intelFPGA_lite/Project_FPGA/demo_2/tb_full_adder.v
+!i122 1
+L0 1 22
+R3
+r1
+!s85 0
+31
+!s108 1776059024.000000
+!s107 C:/intelFPGA_lite/Project_FPGA/demo_2/tb_full_adder.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA_lite/Project_FPGA/demo_2/tb_full_adder.v|
+!i113 1
+o-work work
+R4

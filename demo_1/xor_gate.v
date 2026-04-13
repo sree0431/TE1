@@ -1,0 +1,29 @@
+/*
+==========================================================
+								XOR-GATE
+==========================================================
+Description: XOR gate using gate-level modeling
+
+Design Engineer:
+	Desiree C. Valois
+	
+Date:
+	April 10, 2026
+==========================================================
+
+==========================================================
+*/
+
+module xor_gate(Y, A, B);
+	input A, B;
+	output Y;
+	
+	wire w1, w2, w3, w4;
+	
+	or u1(Y, w3, w4);
+	and u2(w3, w1, B);
+	not u3(w1, A);
+	not u4(w2, B);
+	and u5(w4, A, w2);
+
+endmodule 
