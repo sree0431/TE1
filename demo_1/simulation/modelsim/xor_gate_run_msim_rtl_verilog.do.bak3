@@ -1,0 +1,10 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Project_FPGA/demo_1 {C:/Project_FPGA/demo_1/xor_gate.v}
+vlog -vlog01compat -work work +incdir+C:/Project_FPGA/demo_1 {C:/Project_FPGA/demo_1/xor_tb.v}
+

@@ -1,4 +1,5 @@
 # Reading pref.tcl
+# ERROR: No extended dataflow license exists
 # do xor_gate_run_msim_rtl_verilog.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -10,31 +11,34 @@
 # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Project_FPGA/demo_1 {C:/intelFPGA_lite/Project_FPGA/demo_1/xor_gate.v}
+# vlog -vlog01compat -work work +incdir+C:/Project_FPGA/demo_1 {C:/Project_FPGA/demo_1/xor_gate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:48:56 on Apr 13,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Project_FPGA/demo_1" C:/intelFPGA_lite/Project_FPGA/demo_1/xor_gate.v 
+# Start time: 10:30:36 on Apr 16,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Project_FPGA/demo_1" C:/Project_FPGA/demo_1/xor_gate.v 
 # -- Compiling module xor_gate
 # 
 # Top level modules:
 # 	xor_gate
-# End time: 22:48:56 on Apr 13,2026, Elapsed time: 0:00:00
+# End time: 10:30:36 on Apr 16,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/Project_FPGA/demo_1 {C:/intelFPGA_lite/Project_FPGA/demo_1/xor_tb.v}
+# 
+vlog -reportprogress 300 -work work C:/Project_FPGA/demo_1/xor_tb.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:48:56 on Apr 13,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/Project_FPGA/demo_1" C:/intelFPGA_lite/Project_FPGA/demo_1/xor_tb.v 
+# Start time: 10:30:53 on Apr 16,2026
+# vlog -reportprogress 300 -work work C:/Project_FPGA/demo_1/xor_tb.v 
 # -- Compiling module xor_tb
 # 
 # Top level modules:
 # 	xor_tb
-# End time: 22:48:56 on Apr 13,2026, Elapsed time: 0:00:00
+# End time: 10:30:53 on Apr 16,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# 
-vsim work.xor_tb
-# vsim work.xor_tb 
-# Start time: 22:49:05 on Apr 13,2026
-# Loading work.xor_tb
+vsim work.xor_gate work.xor_tb
+# vsim work.xor_gate work.xor_tb 
+# Start time: 10:31:24 on Apr 16,2026
 # Loading work.xor_gate
-# End time: 22:49:11 on Apr 13,2026, Elapsed time: 0:00:06
+# Loading work.xor_tb
+run -all
+add wave -position insertpoint sim:/xor_tb/*
+run -all
+# End time: 10:33:19 on Apr 16,2026, Elapsed time: 0:01:55
 # Errors: 0, Warnings: 0

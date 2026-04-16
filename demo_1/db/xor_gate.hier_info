@@ -1,11 +1,8 @@
-|xor_tb
-
-
-|xor_tb|xor_gate:dut
-Y <= u1.DB_MAX_OUTPUT_PORT_TYPE
-A => u5.IN0
-A => u2.IN0
-B => u2.IN1
-B => u5.IN1
+|xor_gate
+Y << Add1.DB_MAX_OUTPUT_PORT_TYPE
+A => Add0.IN2
+A => Y.IN0
+B => Y.IN1
+B => Add0.IN1
 
 

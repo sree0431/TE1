@@ -8,52 +8,51 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/intelFPGA_lite/Project_FPGA/demo_1/simulation/modelsim
+Z0 dC:/Project_FPGA/demo_1/simulation/modelsim
 vxor_gate
-Z1 !s110 1776091736
+!s110 1776306636
 !i10b 1
-!s100 zhfn5AGXbXV>>XWTR]7]U1
-Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IA78T:9?dFPZ0SRTRl=K:H0
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s100 3^0]2@ZhOC8@6kiHA?deS0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IaA[5kfIO_dm=MU=TQnlbP3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1776091175
-8C:/intelFPGA_lite/Project_FPGA/demo_1/xor_gate.v
-FC:/intelFPGA_lite/Project_FPGA/demo_1/xor_gate.v
+w1776303826
+8C:/Project_FPGA/demo_1/xor_gate.v
+FC:/Project_FPGA/demo_1/xor_gate.v
 !i122 0
-L0 17 13
-Z4 OV;L;2020.1;71
+L0 17 9
+Z3 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1776091736.000000
-!s107 C:/intelFPGA_lite/Project_FPGA/demo_1/xor_gate.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Project_FPGA/demo_1|C:/intelFPGA_lite/Project_FPGA/demo_1/xor_gate.v|
+!s108 1776306636.000000
+!s107 C:/Project_FPGA/demo_1/xor_gate.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Project_FPGA/demo_1|C:/Project_FPGA/demo_1/xor_gate.v|
 !i113 1
-Z6 o-vlog01compat -work work
-Z7 !s92 -vlog01compat -work work +incdir+C:/intelFPGA_lite/Project_FPGA/demo_1
-Z8 tCvgOpt 0
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Project_FPGA/demo_1
+Z4 tCvgOpt 0
 vxor_tb
-R1
+!s110 1776306653
 !i10b 1
-!s100 J9S9?kzmMn3_GD9df9cIG3
+!s100 b84d5WXB22N1SbHeE7i>92
+R1
+I_43GeQj]9>?ZPm6KI_@lU2
 R2
-Ig>URjE57KNg14D1D7I;YJ0
-R3
 R0
-w1776090844
-8C:/intelFPGA_lite/Project_FPGA/demo_1/xor_tb.v
-FC:/intelFPGA_lite/Project_FPGA/demo_1/xor_tb.v
+w1776304959
+8C:/Project_FPGA/demo_1/xor_tb.v
+FC:/Project_FPGA/demo_1/xor_tb.v
 !i122 1
 L0 3 21
-R4
+R3
 r1
 !s85 0
 31
-R5
-!s107 C:/intelFPGA_lite/Project_FPGA/demo_1/xor_tb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/intelFPGA_lite/Project_FPGA/demo_1|C:/intelFPGA_lite/Project_FPGA/demo_1/xor_tb.v|
+!s108 1776306653.000000
+!s107 C:/Project_FPGA/demo_1/xor_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Project_FPGA/demo_1/xor_tb.v|
 !i113 1
-R6
-R7
-R8
+o-work work
+R4
