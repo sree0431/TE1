@@ -1,0 +1,11 @@
+//testbench
+
+module tb_full_adder;
+	//tb signals
+
+	// half-adder instance
+
+
+	//apply stimuli
+
+endmodule

@@ -1,0 +1,18 @@
+//testbench
+
+module tb_full_adder_2b;
+    reg [1:0] A, B;
+	wire [1:0] sum;
+	wire cout;
+    initial begin
+        A = 2'd0; B = 2'd0; #1;
+        repeat(3) begin
+            B = 2'd0;
+            A = A + 2'd1; 
+            #1;
+                repeat(3) begin
+                B = B + 2'd1; #1;
+                end
+        end
+    end
+endmodule
