@@ -1,0 +1,23 @@
+module tb_full_adder_4b;
+    reg [3:0] A;
+    reg [3:0] B;
+    wire [4:0] S;
+    
+    full_adder_4b dut (
+        .A(A),
+        .B(B),
+        .S(S)
+    );
+    initial begin
+        A = 4'd0; B = 4'd0; #1;
+        repeat(15) begin
+            B = 4'd0;
+            A = A + 4'd1;
+            repeat(15) begin
+                #1;
+                B = B + 4'd1;
+            end
+				#1
+        end
+    end
+endmodule
